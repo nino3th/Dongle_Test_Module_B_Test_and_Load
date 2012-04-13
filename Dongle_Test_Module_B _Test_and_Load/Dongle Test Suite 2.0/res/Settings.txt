@@ -1,0 +1,46 @@
+Dongle Test Module B 1.1 Settings file
+
+Format of this file: name of parameter, followed by the value of the parameter on its own line.  
+	If the line is blank or commented out, then the parameter will be set using other means: 
+	either a hard-coded default value or a prompt, or another input as indicated in the item description.
+	DO NOT change the parameter name lines, or this settings file will not function.
+
+
+Testing?
+true
+
+Loading?
+false
+
+Firmware image filename:
+Dongle_1.0.0_28-02-2012.bin
+
+PID expected for USB under test (if unspecified, defaults to 04036001):
+04036001
+
+PID expected for reference radio dongle (if unspecified, defaults to 04036006):
+04036006
+
+PID set on completion (if unspecified, defaults to 04038C80):
+04038C81
+
+Throw an error if a test is attempted on a board with this PID (if unspecified, defaults to dummy value 99):
+//04038C81
+
+Number of radio tests in each direction:
+5
+
+ZTC image filename:
+RadioTest_E0.0.0_31-03-2012.bin
+
+SSL bin filename:
+ssl-921600.bin
+
+Reading FW image filename from this settings file (true/false) (prompts for file selection if false):
+true
+
+Listen loop timeout (number of times to loop through 20-ms listen before timing out, default = 50):
+150
+
+
+END SETTINGS FILE
