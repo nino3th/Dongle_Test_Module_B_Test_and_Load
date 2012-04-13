@@ -15,6 +15,9 @@ false
 Firmware image filename:
 Dongle_1.0.0_28-02-2012.bin
 
+Frequency Counter Address:
+15
+
 PID expected for USB under test (if unspecified, defaults to 04036001):
 04036001
 
